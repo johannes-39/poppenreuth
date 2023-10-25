@@ -1,0 +1,54 @@
+
+.test123 {
+    left: 30%;
+    position: relative;
+    width: 40%;
+}
+
+.dropdown1 {
+    left: 10%;
+    position: relative;
+    width: 80%;
+    height: 100%;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-family: Consolas;
+    color: #555;
+    cursor: auto;
+
+}
+
+.button {
+    margin-top: 0.7rem;
+    position: relative;
+    width: 100%;
+    max-width: 10rem;
+    height: 100%;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-family: Consolas;
+    color: #555;
+    cursor: auto;
+}
+.button:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.button1 {
+    position: relative;
+    width: 100%;
+    max-width: 8rem;
+    height: 100%;
+    border: none;
+    border-radius: 25px;
+    font-family: Consolas;
+    color: #555;
+    background-color: #f1f1f1;
+    cursor: auto;
+    margin-top: 0.3rem;
+}
+.button1:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}

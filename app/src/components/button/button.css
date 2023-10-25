@@ -1,0 +1,16 @@
+.button {
+    position: relative;
+    width: 100%;
+    max-width: 10rem;
+    height: 100%;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-family: Consolas;
+    color: #555;
+    cursor: auto;
+    background-color: #f1f1f1;
+}
+.button:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
