@@ -1,0 +1,21 @@
+.divFooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 3.5rem;
+    border: none;
+    padding: 10px 25px;
+    color: #000000;
+    background-color: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 200000;
+    text-align: center;
+}
+.aFooter {
+    text-decoration: none;
+    color: #222;
+
+}

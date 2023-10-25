@@ -1,0 +1,40 @@
+.divBodyBox {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divBody {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 30rem;
+
+
+}
+.divCard {
+    background-color: #ffffff;
+    border-radius: 1rem;
+    color: #000000;
+    transition: all 0.2s linear;
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+
+
+}
+.divCard:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.img {
+    width: 100%;
+    display: block;
+    height: 15rem;
+    object-fit: cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    transition: all 0.5s linear;
+}

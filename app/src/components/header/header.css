@@ -1,0 +1,84 @@
+:root {
+    --black: #222;
+    --white: #fff;
+}
+
+/* CSS Variablen */
+:root {
+    --primaryColor: #000000;
+    --secondaryColor: #333;
+    --black: #222;
+    --white: #fff;
+    --offWhite: #ededed;
+    --transition: all 0.2s linear;
+}
+
+/* `*` ist ein universal selector der jedes html element auf der Seite selektiert.
+Mit ::before und ::after werden alle entsprechenden Pseudo-elmente selektiert  */
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    /* Bei border-box inkludieren die festgelegten Dimensionen (width, height)
+    bereits das padding, border und den content */
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+.nav {
+
+    width: 100%;
+}
+
+
+.nav-links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.nav-links li a {
+    color: var(--primaryColor);
+    transition: var(--transition);
+    text-transform: uppercase;
+}
+
+.nav-links li a:hover {
+    color: var(--black);
+}
+.div {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 3.5rem;
+    border: none;
+    padding: 10px 25px;
+    color: #000000;
+    background-color: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 200000;
+}
+.div2 {
+    width: 100%;
+    max-width: 30rem;
+}
+
+.li{
+    width: 33.33333%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
