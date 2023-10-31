@@ -1,0 +1,218 @@
+.box {
+    margin-top: 1rem;
+
+}
+
+.animated-component {
+    border-radius: 1rem;
+    height: 7rem;
+    width: 80%;
+    max-width: 30rem;
+    transition: 0.5s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.animated-component:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.animated-component.visible {
+    height: 28rem;
+    width: 80%;
+    max-width: 30rem;
+    opacity: 1;
+}
+
+
+.text {
+    padding: 2rem;
+
+    transition: 8s ease;
+    overflow: hidden;
+    color: white;
+
+}
+
+.text.visible {
+    height: 100%;
+    color: black;
+}
+
+.avatar {
+    width: 100%;
+    height: 7rem;
+    background-color: grey;
+    border-radius: 1rem;
+    transition: 0.5s linear;
+    object-fit: cover;
+
+}
+.avatar.visible {
+    margin-top: 1rem;
+    margin-left: 0%;
+    height: 0rem;
+    visibility: hidden;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.boxbefore {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.boxaround {
+    visibility: hidden;
+    transition: 0.7s linear;
+
+}
+
+
+.boxafter.visible {
+    transition-delay: 0.5s, 0s;
+    visibility: visible;
+    height: 22.3rem;
+    overflow: auto;
+    flex-direction: column-reverse;
+    margin-left: 5%;
+    margin-top: 1rem;
+}
+
+.close{
+    visibility: hidden;
+}
+.close.visible {
+    width: 100%;
+    visibility: visible;
+    margin-top: 0.3rem;
+    transition-delay: 0.5s, 0s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textComp.visible {
+}
+
+.boxafter.visible::-webkit-scrollbar {
+    width: 12px;
+}
+
+.boxafter.visible::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+.boxafter.visible::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+.ueberschrift {
+    font-family: Consolas;
+    width: 80%;
+    font-size: 20px;
+    position: sticky;
+    text-align: center;
+}
+
+.grid {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 90%;
+    display: flex;
+    margin-left: 5%;
+}
+.grid1{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid2{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.grid3{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.commentButton {
+    margin-left: 50%;
+
+}
+
+
+
+.commentBox.visible {
+    height:100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testbox {
+    width: 10rem;
+    height: 10rem;
+    background-color: blue;
+}
+
+.comment{
+    visibility: hidden;
+    transition: 1s, 0s;
+}
+.comment.visible {
+    visibility: visible;
+    width: 80%;
+    border-radius: 1.25rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    height: 2.5rem;
+    padding-left: 1rem;
+    margin-top: 10px;
+    font-family: Consolas;
+    padding-right: 1rem;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.centered.visible {
+    visibility: hidden;
+}
+
+.textHeader {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #555555;
+    margin-bottom: 1rem;
+}
+
+

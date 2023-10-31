@@ -28,7 +28,7 @@ const Sizepicker:React.FC<any> =  () => {
         <div className={"dropdown1"}>
             <button className={'button'} onClick={handleOnClick}>{value}</button>
             {
-                open === true ? <div className={"test123"}>
+                open ? <div className={"test123"}>
                     <button onClick={handleOnClick1} className={'button1'}>M</button>
                     <button onClick={handleOnClick2} className={'button1'}>L</button>
                     <button onClick={handleOnClick3} className={'button1'}>XL</button>

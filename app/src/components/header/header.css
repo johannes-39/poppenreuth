@@ -68,16 +68,13 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5rem;
 
     z-index: 200000;
 }
-.div2 {
-    width: 100%;
-    max-width: 30rem;
-}
+
 
 .li{
-    width: 33.33333%;
     display: flex;
     justify-content: center;
     align-content: center;
