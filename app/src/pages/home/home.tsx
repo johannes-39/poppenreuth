@@ -9,9 +9,9 @@ function MyHome() {
     const [checkout, setCheckout] = useState(false);
     return (
         <div className={"divCompNews"}>
-            <div className={"divContent"}>
+            <div className={"divContent"}><TestComp></TestComp>
                 <CardComponent setCheckout={setCheckout} checkout={checkout} content={"commando poppenreuth shirt"} content1={"20€"} image={image}/>
-            <TestComp></TestComp>
+
             </div>
 
             </div>

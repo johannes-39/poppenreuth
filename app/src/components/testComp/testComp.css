@@ -49,12 +49,8 @@
 
 }
 .avatar.visible {
-    margin-top: 1rem;
-    margin-left: 0%;
     height: 0rem;
     visibility: hidden;
-    margin-left: 1rem;
-    margin-right: 1rem;
 }
 
 .boxbefore {
@@ -206,6 +202,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .divider {
