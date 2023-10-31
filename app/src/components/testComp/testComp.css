@@ -71,10 +71,11 @@
 .boxafter.visible {
     transition-delay: 0.5s, 0s;
     visibility: visible;
-    height: 22.3rem;
+    height: 21.7rem;
     overflow: auto;
     flex-direction: column-reverse;
     margin-left: 5%;
+    margin-right: 5%;
     margin-top: 1rem;
 }
 
